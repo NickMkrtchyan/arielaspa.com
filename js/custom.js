@@ -319,52 +319,6 @@
 
 
     // Load Contact Gmap
-    //-------------------------------------------------------------
-
-    var geocoder;
-    var map;
-    var draggable = true;
-
-    geocoder = new google.maps.Geocoder();
-
-    var mapOptions = {
-        zoom: 12,
-        draggable: draggable,
-        mapTypeControl: false,
-        center: new google.maps.LatLng(0, 0),
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
-
-    map = new google.maps.Map(document.getElementById('contact-map'), mapOptions);
-
-    var contentString = '<div id="content">' +
-        '<strong>'+companyName+'</strong><br>' +
-        'Address: 3861 Sepulveda Blvd., Culver City, CA 90230 ' +
-        '</div>';
-
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
-
-    geocoder.geocode({'address': address}, function (results, status) {
-        if (status == google.maps.GeocoderStatus.OK) {
-            map.setCenter(results[0].geometry.location);
-            var marker = new google.maps.Marker({
-                map: map,
-                position: results[0].geometry.location,
-                icon: 'img/mapmarker.png',
-                title: 'Uluru (Ayers Rock)'
-            });
-
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-
-        } else {
-            alert('Geocode was not successful for the following reason: ' + status);
-        }
-    });
-
-
+    
 // end document ready
 })(jQuery);
