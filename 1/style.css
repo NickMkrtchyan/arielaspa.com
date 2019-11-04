@@ -51,7 +51,7 @@ a{
 	color:#333;
 }
 a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 input:focus,
 textarea:focus,
@@ -156,7 +156,7 @@ p {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background-color: #7d3c92;
+	background-color: #af884c;
 	opacity: 0.6;
 	position: absolute;
 	top: 0;
@@ -197,10 +197,10 @@ p {
 }
 .btn.btn-default{
 	line-height: 26px;
-    border: 2px solid #7d3c92;
+    border: 2px solid #af884c;
     border-radius: 27px;
     padding: 12px 30px;
-    color: #7d3c92;
+    color: #af884c;
     font-weight: 500;
 	text-transform:capitalize;
 	box-shadow:none!important;
@@ -210,25 +210,25 @@ p {
 .btn-primary:not(:disabled):not(.disabled):active, 
 .show>.btn-primary.dropdown-toggle{
 	line-height: 26px;
-    border: 2px solid #7d3c92;
+    border: 2px solid #af884c;
     border-radius: 27px;
     padding: 12px 35px;
     color: #fff;
     font-weight: 500;
-	background:#7d3c92;
+	background:#af884c;
 	text-transform:capitalize;
 	opacity:1;
 	box-shadow:none!important;
 }
 .btn-primary:hover{
-	color:#7d3c92;
-	border-color:#7d3c92;
+	color:#af884c;
+	border-color:#af884c;
 	background:none;
 }
 .btn.btn-default:hover{
-	background:#7d3c92;
+	background:#af884c;
 	color:#fff;
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 .btn.focus, .btn:focus {
     outline: 0;
@@ -297,6 +297,9 @@ section{
 .navbar .navbar-brand{
 	padding:4px 0;
 }
+.navbar-brand img {
+	width: 100px;
+}
 .navbar .navbar-nav .nav-item{
 	position:relative;
 }
@@ -351,18 +354,18 @@ section{
 	visibility:visible;
 }
 .navbar .navbar-nav .nav-item.btn-appointment .nav-link{
-	background: #7d3c92;
+	background: #af884c;
     color: #fff;
     padding: 11px 30px;
     border-radius: 25px;
     text-transform: uppercase;
-    border: 2px solid #7d3c92;
+    border: 2px solid #af884c;
 }
 .navbar .navbar-nav .nav-item.btn-appointment.active .nav-link{
 	color:#fff;
 }
 .navbar .navbar-nav .nav-item.btn-appointment .nav-link:hover{
-	color:#7d3c92;
+	color:#af884c;
 	background-color:transparent;
 }
 .navbar .navbar-nav .nav-item.btn-appointment{
@@ -376,7 +379,7 @@ section{
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-link:hover{
-	color:#7d3c92;
+	color:#af884c;
 } 
 .navbar-toggler{
 	padding:0;
@@ -496,14 +499,14 @@ section{
 	height:14px;
 	background:#fff;
 	border-radius:50%;
-	border:2px solid #7d3c92;
+	border:2px solid #af884c;
 	margin:0 0 10px;
 }
 .carousel-indicators li:last-child{
 	margin:0;
 }
 .carousel-indicators li.active{
-	background:#7d3c92;
+	background:#af884c;
 }
 
 /*======================================== Services =============================*/
@@ -595,7 +598,7 @@ section{
 	display:inline-block;
 }
 .play-button a:hover .fa{
-	background:#7d3c92;
+	background:#af884c;
 	color:#fff;
 }
 .play-button a .fa{
@@ -607,7 +610,7 @@ section{
 	width:100px;
 	text-align:center;
 	font-size:24px;
-	color:#7d3c92;
+	color:#af884c;
 	position:relative;
 	z-index:6;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -730,7 +733,7 @@ iframe {
 	top:0;
 	content:"\f18e";
 	font-family:FontAwesome;
-	color:#7d3c92;
+	color:#af884c;
 }
 
 /*======================================== Pricing Plan =============================*/
@@ -816,7 +819,7 @@ iframe {
 	line-height:24px;
 }
 .pricing-table h2{
-	color:#7d3c92;
+	color:#af884c;
 	font-weight:500;
 	margin:0 0 27px;
 }
@@ -846,7 +849,7 @@ iframe {
 	top:0;
 	left:0;
 	content:'';
-	background:#7d3c92;
+	background:#af884c;
 	opacity:0;
 	visibility:hidden;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -974,7 +977,7 @@ iframe {
     position: absolute;
     left: 0;
     content: '';
-    background: #7d3c92;
+    background: #af884c;
     bottom: 0;
 }
 .breadcrumb{
@@ -982,7 +985,7 @@ iframe {
 	background:none;
 }
 .breadcrumb li a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .breadcrumb-item{
 	text-transform:capitalize;
@@ -1025,7 +1028,7 @@ iframe {
     width: 100%;
     float: left;
     height: auto;
-	background:#7d3c92;
+	background:#af884c;
 	padding:25px 10px 25px;
 	border-radius:0 0 5px 5px;
 	position:absolute;
@@ -1107,7 +1110,7 @@ iframe {
     font-size: 35px;
 }
 .features-info:hover{
-	background:#7d3c92;
+	background:#af884c;
 }
 .features-info:hover h3,
 .features-info:hover span.counter{
@@ -1160,7 +1163,7 @@ iframe {
 	width:100%;
 	float:left;
 	height:auto;
-	border:1px solid #7d3c92;
+	border:1px solid #af884c;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
@@ -1187,7 +1190,7 @@ iframe {
 .author-comment::after {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #7d3c92;
+    border-top: 10px solid #af884c;
     position: absolute;
     left: 19px;
     content: '';
@@ -1196,7 +1199,7 @@ iframe {
 }
 .quote .fa{
 	font-size:40px;
-	color:#7d3c92;
+	color:#af884c;
 }
 .owl-dots{
 	width:100%;
@@ -1208,7 +1211,7 @@ iframe {
 	display:inline-block;
 	width:12px;
 	height:12px;
-	border:1px solid #7d3c92;
+	border:1px solid #af884c;
 	outline:none;
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
@@ -1216,7 +1219,7 @@ iframe {
 	margin:0 5px;
 }
 .owl-carousel .owl-dots .owl-dot.active{
-	background:#7d3c92;
+	background:#af884c;
 	width:25px;
 }
 
@@ -1257,7 +1260,7 @@ a.btn.btn-link {
 	text-decoration:none;
 }
 a.btn.btn-link:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 a.btn.btn-link .fa{
 	-webkit-transition:all 0.3s ease-in-out;
@@ -1276,7 +1279,7 @@ a.btn.btn-link:hover .fa{
 	display:block;
 }
 .news-block h3 a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .overlay{
 	width:100%;
@@ -1319,7 +1322,7 @@ a.btn.btn-link:hover .fa{
 }
 .overlay a:hover{
 	background:#fff;
-	color:#7d3c92;
+	color:#af884c;
 }
 .news-bottom{
 	width:100%;
@@ -1337,7 +1340,7 @@ a.btn.btn-link:hover .fa{
 	color:#333;
 }
 .post-meta li a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .pagination-container {
     width: 100%;
@@ -1372,8 +1375,8 @@ a.btn.btn-link:hover .fa{
 .pagination > li > a:hover, 
 .pagination > li >span:focus, 
 .pagination > li > span:hover{
-	background-color: #7d3c92;
-    border-color: #7d3c92;
+	background-color: #af884c;
+    border-color: #af884c;
 	color:#fff;
 }
 blockquote {
@@ -1382,7 +1385,7 @@ blockquote {
     color: #929292;
     padding: 20px 20px;
     margin: 0 0 25px;
-    border-left: 5px solid #7d3c92;
+    border-left: 5px solid #af884c;
     background: #f8faff;
 }
 .news-details{
@@ -1468,7 +1471,7 @@ blockquote {
 	margin:0 0 15px;
 }
 .author-desc a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .sidebar{
 	width:100%;
@@ -1493,7 +1496,7 @@ blockquote {
 	left:0;
 	bottom:0;
 	height:2px;
-	background:#7d3c92;
+	background:#af884c;
 	content:'';
 }
 .search-submit {
@@ -1503,7 +1506,7 @@ blockquote {
     height: 38px;
     padding: 0 8px;
     text-transform: uppercase;
-	background:#7d3c92;
+	background:#af884c;
 }
 .category-list,
 .archive-list{
@@ -1533,7 +1536,7 @@ blockquote {
 }
 .category-list li a:hover,
 .archive-list li a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .tag-list li{
 	width:auto;
@@ -1554,8 +1557,8 @@ blockquote {
 }
 .tag-list li a:hover{
 	color:#fff;
-	border-color:#7d3c92;
-	background:#7d3c92;
+	border-color:#af884c;
+	background:#af884c;
 }
 .comment-form .form-control::-moz-placeholder,
 .comment-form .form-control{
@@ -1567,7 +1570,7 @@ blockquote {
 	font-size:16px;
 	text-align:center;
 	border:none;
-	background:#7d3c92;
+	background:#af884c;
 	color:#fff;
 	cursor:pointer;
 	border-radius:0 3px 3px 0;
@@ -1578,7 +1581,7 @@ blockquote {
     color: #333;
 }
 .list-inline-item .fa{
-	color:#7d3c92;
+	color:#af884c;
 }
 .sidebar-widget{
 	padding:20px;
@@ -1608,11 +1611,11 @@ blockquote {
 	transition:all 0.3s ease-in-out;
 }
 .contact-info:hover{
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 .contact-info .fa{
 	font-size:30px;
-	color:#7d3c92;
+	color:#af884c;
 	margin:0 0 20px;
 }
 .contact-info p{
@@ -1623,7 +1626,7 @@ blockquote {
 	color:inherit;
 }
 .contact-info p a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .form-control{
 	height:54px;
@@ -1635,7 +1638,7 @@ blockquote {
 	border-radius:3px;
 }
 .form-control:focus{
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 .form-control::-moz-placeholder{
 	color:#999;
@@ -1693,7 +1696,7 @@ blockquote {
 	color:#999;
 }
 .footer-top ul li a:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 .footer-widget .fa{
 	width:20px;
@@ -1724,7 +1727,7 @@ blockquote {
 .back-top a{
 	width: 40px;
 	line-height: 40px;
-	background: #7d3c92;
+	background: #af884c;
 	color: #fff;
 	display: inline-block;
 	border-radius: 5px;
@@ -1765,7 +1768,7 @@ blockquote {
 	z-index:99;
 }
 .close:hover{
-	color:#7d3c92;
+	color:#af884c;
 }
 #reservation-form{
 	width:100%;
@@ -1795,7 +1798,7 @@ blockquote {
 }
 .chosen-container-active.chosen-with-drop .chosen-single{
 	box-shadown:none;
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 .chosen-container .chosen-results{
 	margin:0;
@@ -1804,7 +1807,7 @@ blockquote {
 }
 .chosen-container .chosen-drop{
 	box-shadown:none;
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 .chosen-container .chosen-results li{
 	padding:10px 15px;
@@ -1814,7 +1817,7 @@ blockquote {
 	cursor:pointer;
 }
 .chosen-container .chosen-results li.active-result.highlighted{
-	color:#7d3c92;
+	color:#af884c;
 	background:#f5f5f5;
 }
 .chosen-container-single .chosen-single div {
@@ -1860,7 +1863,7 @@ blockquote {
     color: #f00;
 }
 .modal .form-control:focus{
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 .bootstrap-timepicker-widget.dropdown-menu{
 	left:38px;
@@ -1878,9 +1881,9 @@ input[type="submit"].btn.btn-primary{
 	border:2px solid transparent;
 }
 input[type="submit"].btn.btn-primary:hover{
-	color:#7d3c92;
+	color:#af884c;
 	background:none;
-	border-color:#7d3c92;
+	border-color:#af884c;
 }
 
 /*======================================== Responsive Design =============================*/
