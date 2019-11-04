@@ -42,7 +42,7 @@
     </div>
     <!-- Preloader end -->
     <!-- Navigation Top start -->
-    <nav class="navbar navbar-default navbar-fixed-top navigation-top" id="navigation-top-1" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-hidden navigation-top" id="navigation-top-1" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -147,7 +147,37 @@
         </div>
     </section>
     <!-- Features Img end -->
-    <hr class="shadowed">
+    <!-- Newsletter start -->
+    <section class="newsletter-simple wow fadeIn parallax" data-wow-offset="100" id="newsletter-simple-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert hidden" id="newsletter-form-msg"></div>
+                </div>
+                <div class="col-md-6 wow fadeInLeft">
+                    <!--newsletter-call-to-action start-->
+                    <div class="newsletter-call-out">
+                        <i class="fa fa-gift"></i>
+                        <h2>SIGN UP FOR AMAZING OFFERS</h2>
+                        <p>Sign up and Get Your Welcome Present Today</p>
+                    </div>
+                    <!--newsletter-call-to-action end-->
+                </div>
+                <div class="col-md-6 wow fadeInRight">
+                    <form action="#" method="post" id="newsletter-form">
+                        <input type="hidden" name="action" value="send_newsletter_form" />
+                        <div class="input-group">
+                            <input type="email" name="newsletter-email" class="newsletter-email form-control" placeholder="Enter your E-Mail-Address...">
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-default btn-gray newsletter-submit">Subscribe <i class="fa fa-caret-right"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter end -->
     <!-- Content Img Left start -->
     <section class="content-img-left wow fadeIn" data-wow-offset="100" id="about-us">
         <div class="container">
@@ -414,6 +444,94 @@
                     <h2 class="text-center">Our top Wellness and Spa offers</h2>
                 </div>
             </div>
+            <div class="row pricing-table-container">
+                <div class="">
+                    <!-- Offer 1 start -->
+                    <div class="col-md-3 pricing-table-offer">
+                        <div class="offer-title">
+                            Oil Massage
+                        </div>
+                        <div class="offer-price">
+                            <span class="currency">$</span>
+                            <span class="price">59</span>
+                            <span class="duration">per 45 min.</span>
+                        </div>
+                        <ul class="offer-benefits">
+                            <li>This is included</li>
+                            <li>You even get this</li>
+                            <li>Yes, this too!</li>
+                            <li>You even get this</li>
+                        </ul>
+                        <div class="offer-action">
+                            <button class="btn btn-lg show-appointment-modal" data-service="Oil Massage">Request an Appointment</button>
+                        </div>
+                    </div>
+                    <!-- Offer 1 end -->
+                    <!-- Offer 2 start -->
+                    <div class="col-md-3 pricing-table-offer highlight">
+                        <div class="offer-title">
+                            Relax Day
+                        </div>
+                        <div class="offer-price">
+                            <span class="currency">$</span>
+                            <span class="price">199</span>
+                            <span class="duration">per Day</span>
+                        </div>
+                        <ul class="offer-benefits">
+                            <li>This is included</li>
+                            <li>You even get this</li>
+                            <li>Yes, this too!</li>
+                            <li>You even get this</li>
+                        </ul>
+                        <div class="offer-action">
+                            <button class="btn btn-lg show-appointment-modal" data-service="Relax Day">Request an Appointment</button>
+                        </div>
+                    </div>
+                    <!-- Offer 2 end -->
+                    <!-- Offer 3 start -->
+                    <div class="col-md-3 pricing-table-offer">
+                        <div class="offer-title">
+                            Spa & Beauty
+                        </div>
+                        <div class="offer-price">
+                            <span class="currency">$</span>
+                            <span class="price">299</span>
+                            <span class="duration">per Day</span>
+                        </div>
+                        <ul class="offer-benefits">
+                            <li>This is included</li>
+                            <li>You even get this</li>
+                            <li>Yes, this too!</li>
+                            <li>You even get this</li>
+                        </ul>
+                        <div class="offer-action">
+                            <button class="btn btn-lg show-appointment-modal" data-service="Spa & Beauty">Request an Appointment</button>
+                        </div>
+                    </div>
+                    <!-- Offer 3 end -->
+                    <!-- Offer 4 start -->
+                    <div class="col-md-3 pricing-table-offer">
+                        <div class="offer-title">
+                            Relax Day <small>(for Two)</small>
+                        </div>
+                        <div class="offer-price">
+                            <span class="currency">$</span>
+                            <span class="price">399</span>
+                            <span class="duration">per Day</span>
+                        </div>
+                        <ul class="offer-benefits">
+                            <li>This is included</li>
+                            <li>You even get this</li>
+                            <li>Yes, this too!</li>
+                            <li>You even get this</li>
+                        </ul>
+                        <div class="offer-action">
+                            <button class="btn btn-lg show-appointment-modal" data-service="Relax Day (for Two)">Request an Appointment</button>
+                        </div>
+                    </div>
+                    <!-- Offer 4 end -->
+                </div>
+            </div>
             <p class="pricing-table-comment">If you have any questions or need additional information, <a href="#contact" class="scroll-to">please get in touch with us!</a></p>
         </div>
     </section>
@@ -530,6 +648,68 @@
         </div>
     </section>
     <!-- Partners end -->
+    <!-- About Us Large start -->
+    <section class="about-us-large wow fadeIn" data-wow-offset="100" id="team">
+        <div class="container">
+            <div class="col-md-12">
+                <h2 class="text-center">Meet Our Experts</h2>
+            </div>
+            <div class="row">
+                <!--Person 1 start-->
+                <div class="col-md-4 person">
+                    <div class="person-img text-center">
+                        <img src="img/experts1.png" alt="Person Img" class="img-responsive" />
+                        <div class="person-img-background"></div>
+                    </div>
+                    <h2>Rodney Stratton</h2>
+                    <h3>Physiotherapist | (985) 123-3410</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <ul class="person-socialmedia">
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <!--Person 1 end-->
+                <!--Person 2 start-->
+                <div class="col-md-4 person">
+                    <div class="person-img text-center">
+                        <img src="img/experts2.png" alt="Person Img" class="img-responsive" />
+                        <div class="person-img-background"></div>
+                    </div>
+                    <h2>Jane Smith</h2>
+                    <h3>Physiotherapist | (985) 123-3410</h3>
+                    <p>Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                    <ul class="person-socialmedia">
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <!--Person 2 end-->
+                <!--Person 3 start-->
+                <div class="col-md-4 person">
+                    <div class="person-img text-center">
+                        <img src="img/experts3.png" alt="Person Img" class="img-responsive" />
+                        <div class="person-img-background"></div>
+                    </div>
+                    <h2>Robert Brown</h2>
+                    <h3>Physiotherapist | (985) 123-3410</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                    <ul class="person-socialmedia">
+                        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <!--Person 3 end-->
+            </div>
+        </div>
+    </section>
+    <!-- About Us Large end -->
     <!-- Call To Action start -->
     <section class="call-to-action wow fadeIn" data-wow-offset="100" id="call-to-action-1">
         <div class="container">
