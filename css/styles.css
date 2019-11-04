@@ -629,11 +629,6 @@ section {
   border-bottom: 5px solid #af884c;
 }
 .tab-content .nav-tabs li.active a {
-  color: #af884c;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  border-bottom: 5px solid #af884c;
 }
 .tab-content .tab-content {
   padding: 85px 0;
@@ -981,10 +976,6 @@ section {
   width: auto;
 }
 .review-slider .carousel-indicators .active {
-  border: 2px solid #af884c;
-  background-color: transparent;
-  width: 13px;
-  height: 13px;
 }
 .review-slider .carousel-indicators li {
   background-color: #af884c;
