@@ -241,13 +241,15 @@ section{
 	position:relative;
 }
 .section-spacing{
-	padding:110px 0;
+	padding:30px 0;
+	background: #dde1ea;
 }
 .no-spacing{
 	padding:0;
 }
-.inverse-bg{
-	background:#f8faff;
+.inverse-bg .container{
+	background:#fff;
+	padding: 70px;
 }
 .section-title {
     width: 100%;
