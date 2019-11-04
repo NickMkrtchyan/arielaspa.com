@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/animatecss/animate.min.css">
     <link rel="stylesheet" href="assets/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="assets/animated-headlines/animated-headlines.css">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,700italic' rel='stylesheet' type='text/css'>
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/styles.css">
@@ -63,11 +64,12 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home" class="scroll-to">Home</a></li>
-                    <li><a href="#our-service" class="scroll-to">Our Services</a></li>
                     <li><a href="#about-us" class="scroll-to">About Us</a></li>
+                    <li><a href="#our-service" class="scroll-to">Services</a></li>
+                    <li><a href="#gallery" class="scroll-to">Gallery</a></li>
                     <li><a href="#prices" class="scroll-to">Prices</a></li>
                     <li><a href="#contact" class="scroll-to">Contact</a></li>
-                    <li><a href="#" class="btn btn-default navbar-btn btn-success show-appointment-modal"><i class="fa fa-calendar fa-fw"></i> Request an Appointment</a></li>
+                    <li><a href="https://www.facebook.com/messages/t/arielamassagecenter" target="_blank" class="btn btn-default navbar-btn btn-success show-appointment-modal"><i class="fa fa-calendar fa-fw"></i> Request an Appointment</a></li>
                 </ul>
             </div>
             <!-- Nav-Links end -->
@@ -167,6 +169,64 @@
                         labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                 </div>
                 <!--Feature-3 end-->
+            </div>
+        </div>
+    </section>
+    <!-- Features Img end -->
+    <hr class="shadowed">
+    <!-- Features Img start -->
+    <section class="features-img" id="gallery">
+        <div class="container">
+            <!--Feature Title start-->
+            <div class="row wow fadeIn" data-wow-offset="200">
+                <div class="col-md-12">
+                    <h2 class="text-center">
+                        Gallery
+                    </h2>
+                </div>
+            </div>
+            <!--Feature Title end-->
+            <div class="row">
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
             </div>
         </div>
     </section>
@@ -299,52 +359,20 @@
                         <div class="address-icon">
                             <i class="fa fa-map-marker"></i>
                         </div>
-                        <p>We are located in the Seeley G. Mudd Building. Address: <a href="#">3861 Sepulveda Blvd., Culver City, CA 90230</a></p>
+                        <p>We are located in the Center.<br>Address: <a href="#">Hin Yerevantsi 47a, Yerevan, Armenia</a></p>
                     </div>
                     <div class="col-md-6">
                         <div class="phone-icon">
                             <i class="fa fa-phone"></i>
                         </div>
-                        <p>If you have questions or need additional information, please call Us: <a href="#">202.662.0763 or use our Contact Form!</a></p>
+                        <p>If you have questions or need additional information, please call Us: <a href="#">077-038-058</a> or <a href="#">096-038-058</a></p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <div class="map" id="contact-map"></div>
-                </div>
-                <div class="col-md-6">
-                    <div class="alert hidden" id="contact-form-gmap-msg"></div>
-                    <form action="#" id="contact-form-gmap" method="post">
-                        <input type="hidden" name="action" value="send_contact_form" />
-                        <div class="form-group">
-                            <label for="first_last_name">First / Last Name:</label>
-                            <input type="text" name="name" class="form-control" id="first_last_name" placeholder="Enter first and last name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email_address">Email Address:</label>
-                            <input type="email" name="email" class="form-control" id="email_address" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject:</label>
-                            <input type="text" name="subject" class="form-control" id="subject" placeholder="Enter subject">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" class="form-control" rows="3"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <div class="row form-actions">
-                                <div class="col-md-5">
-                                    <button type="submit" class="btn btn-lg btn-success btn-submit">Submit Message <i class="fa fa-caret-right"></i></button>
-                                </div>
-                                <div class="col-md-7">
-                                    <p class="form-info">Send an email. All fields with are required.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-md-12">
+                    <iframe class="map"  id="contact-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16275.937234911591!2d44.50220756253918!3d40.1802698430814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x56a87d162dfa6b7f!2sAriela%20Spa%20Center!5e0!3m2!1sru!2s!4v1572869566618!5m2!1sru!2s" allowfullscreen=""></iframe>
                 </div>
             </div>
         </div>
@@ -355,178 +383,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <p>©2014 Themeinjection, All Rights Reserved</p>
+                    <p>©2019 Ariela Spa Center, All Rights Reserved</p>
                 </div>
-                <div class="col-md-4">
-                    <ul class="social-media">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
+                <div class="col-md-4 text-right">
+                    <p>Developed by: <a href="https://wooweb.xyz" target="_blank">Nick Mkrtchyan</a></p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Footer Simple end -->
     <a href="#home" class="scroll-to scroll-up-btn hidden-xs"><i class="fa fa-angle-up"></i></a>
-    <!-- Appointment Modal Start -->
-    <div class="modal fade" id="appointmentModal" tabindex="-1" role="dialog" aria-labelledby="appointmentModalLabel" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <form action="#" method="post" id="appointment-form" name="appointment-form">
-                    <input type="hidden" name="action" value="send_appointment_form" />
-                    <!-- Modal header start -->
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="appointmentModalLabel">Request an Appointment</h4>
-                    </div>
-                    <!-- Modal header end -->
-                    <!-- Modal body start -->
-                    <div class="modal-body">
-                        <!-- Appointment Info start -->
-                        <div class="info-box">
-                            <h3><i class="fa fa-info-circle"></i> Upon completing this booking, you will receive a booking confirmation!</h3>
-                        </div>
-                        <!-- Appointment Info end -->
-                        <!-- Appointment Service and Date start -->
-                        <div class="service-and-date">
-                            <div class="alert hidden" id="appointment-form-msg"></div>
-                            <h2>Service and Date</h2>
-                            <div class="service-select">
-                                <div class="input-group">
-                                    <select name="appointment-service" id="appointment-service" class="form-control">
-                                        <option value="">Please select your Service</option>
-                                        <option value="Oil Massage">Oil Massage ($59.00)</option>
-                                        <option value="Relax Day">Relax Day ($199.00)</option>
-                                        <option value="Spa & Beauty">Spa & Beauty ($299.00)</option>
-                                        <option value="Relax Day (for Two)">Relax Day (for Two $399.00)</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="date-select">
-                                <div class="input-group">
-                                    <span class="input-group-addon" id="appointment-date"><i class="fa fa-calendar"></i></span>
-                                    <input type="text" class="form-control datepicker" name="appointment-date" placeholder="Date: mm/dd/yyyy" aria-describedby="appointment-date">
-                                </div>
-                            </div>
-                            <div class="time-select">
-                                <div class="input-group">
-                                    <span class="input-group-addon" id="appointment-time"><i class="fa fa-clock-o"></i></span>
-                                    <select name="appointment-time" class="form-control" aria-describedby="appointment-time">
-                                        <option value="">Please select your Time</option>
-                                        <option value="12:00 AM">12:00 AM</option>
-                                        <option value="12:30 AM">12:30 AM</option>
-                                        <option value="01:00 AM">01:00 AM</option>
-                                        <option value="01:30 AM">01:30 AM</option>
-                                        <option value="02:00 AM">02:00 AM</option>
-                                        <option value="02:30 AM">02:30 AM</option>
-                                        <option value="03:00 AM">03:00 AM</option>
-                                        <option value="03:30 AM">03:30 AM</option>
-                                        <option value="04:00 AM">04:00 AM</option>
-                                        <option value="04:30 AM">04:30 AM</option>
-                                        <option value="05:00 AM">05:00 AM</option>
-                                        <option value="05:30 AM">05:30 AM</option>
-                                        <option value="06:00 AM">06:00 AM</option>
-                                        <option value="06:30 AM">06:30 AM</option>
-                                        <option value="07:00 AM">07:00 AM</option>
-                                        <option value="07:30 AM">07:30 AM</option>
-                                        <option value="08:00 AM">08:00 AM</option>
-                                        <option value="08:30 AM">08:30 AM</option>
-                                        <option value="09:00 AM">09:00 AM</option>
-                                        <option value="09:30 AM">09:30 AM</option>
-                                        <option value="10:00 AM">10:00 AM</option>
-                                        <option value="10:30 AM">10:30 AM</option>
-                                        <option value="11:00 AM">11:00 AM</option>
-                                        <option value="11:30 AM">11:30 AM</option>
-                                        <option value="12:00 PM">12:00 PM</option>
-                                        <option value="12:30 PM">12:30 PM</option>
-                                        <option value="01:00 PM">01:00 PM</option>
-                                        <option value="01:30 PM">01:30 PM</option>
-                                        <option value="02:00 PM">02:00 PM</option>
-                                        <option value="02:30 PM">02:30 PM</option>
-                                        <option value="03:00 PM">03:00 PM</option>
-                                        <option value="03:30 PM">03:30 PM</option>
-                                        <option value="04:00 PM">04:00 PM</option>
-                                        <option value="04:30 PM">04:30 PM</option>
-                                        <option value="05:00 PM">05:00 PM</option>
-                                        <option value="05:30 PM">05:30 PM</option>
-                                        <option value="06:00 PM">06:00 PM</option>
-                                        <option value="06:30 PM">06:30 PM</option>
-                                        <option value="07:00 PM">07:00 PM</option>
-                                        <option value="07:30 PM">07:30 PM</option>
-                                        <option value="08:00 PM">08:00 PM</option>
-                                        <option value="08:30 PM">08:30 PM</option>
-                                        <option value="09:00 PM">09:00 PM</option>
-                                        <option value="09:30 PM">09:30 PM</option>
-                                        <option value="10:00 PM">10:00 PM</option>
-                                        <option value="10:30 PM">10:30 PM</option>
-                                        <option value="11:00 PM">11:00 PM</option>
-                                        <option value="11:30 PM">11:30 PM</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <!-- Appointment Service and Date end -->
-                        <hr />
-                        <!-- Appointment Personal Information start -->
-                        <div class="personal-information">
-                            <h2>Personal Information</h2>
-                            <div class="form-group first-name-group">
-                                <label for="first-name">First Name</label>
-                                <input type="text" name="first-name" class="form-control" id="first-name" placeholder="Enter your first name">
-                            </div>
-                            <div class="form-group last-name-group">
-                                <label for="last-name">Last Name</label>
-                                <input type="text" name="last-name" class="form-control" id="last-name" placeholder="Enter your last name">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="form-group address-group">
-                                <label for="address">Address</label>
-                                <input type="text" name="address" class="form-control" id="address" placeholder="Enter your address">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="form-group zip-code-group">
-                                <label for="zip-code">Zip Code</label>
-                                <input type="text" name="zip-code" class="form-control" id="zip-code" placeholder="Enter your zip-code">
-                            </div>
-                            <div class="form-group city-group">
-                                <label for="city">City</label>
-                                <input type="text" name="city" class="form-control" id="city" placeholder="Enter your city">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="form-group phone-group">
-                                <label for="phone">Phone</label>
-                                <input type="text" name="phone" class="form-control" id="phone" placeholder="Enter your phone no.">
-                            </div>
-                            <div class="form-group email-group">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" class="form-control" id="email" placeholder="Enter your email">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="newsletter-checkbox">
-                                <input type="checkbox" id="newsletter-cb" name="newsletter" value="Yes, Please send me latest news and updates!">
-                                <label for="newsletter-cb">Please send me latest news and updates!</label>
-                            </div>
-                        </div>
-                        <!-- Appointment Personal Information end -->
-                    </div>
-                    <!-- Modal body end -->
-                    <!-- Modal footer start -->
-                    <div class="modal-footer">
-                        <span class="btn-border btn-gray">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                        </span>
-                        <span class="btn-border btn-yellow">
-                            <button type="submit" class="btn btn-submit btn-primary btn-success">Submit Booking</button>
-                        </span>
-                    </div>
-                    <!-- Modal footer end -->
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- Appointment Modal end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="assets/jquery/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -539,12 +405,18 @@
     <script src="assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
     <!--[if !(gte IE 8)]><!-->
     <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/lighgallery/js/lightgallery-all.min.js"></script>
+    <script src="../lib/jquery.mousewheel.min.js"></script>
     <script>
     "use strict";
     // Initialize WOW
     //-------------------------------------------------------------
     new WOW({ mobile: false }).init();
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
     <!--<![endif]-->
     <script src="js/animated-headlines.js"></script>
     <script src="js/custom.js"></script>
