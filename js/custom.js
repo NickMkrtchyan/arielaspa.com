@@ -8,25 +8,6 @@
     var address = '3861 Sepulveda Blvd., Culver City, CA 90230'; // Enter your Address
 
 
-    // Parallax Scrolling
-    //-------------------------------------------------------------
-    var $w = $(window);
-    var newsletterSimple = $('.newsletter-simple');
-    var productInfo = $('.product-info');
-
-    function move($c) {
-        var offset = $c.offset().top;
-        var scroll = $w.scrollTop();
-        var diff = offset - scroll;
-        var pos = 'center ' + (-diff)*0.2 + 'px';
-        $c.css({'backgroundPosition':pos});
-    }
-    $w.bind('scroll', function(e){
-        move(newsletterSimple);
-        move(productInfo);
-    });
-
-
     // Preloader
     //-------------------------------------------------------------------------------
     window.onscroll = function () {
@@ -45,32 +26,6 @@
 
         }, 100);
 
-    });
-
-
-    // Initialize Tooltip
-    //-------------------------------------------------------------
-    $('.my-tooltip').tooltip();
-
-
-    // Initialize Datetimepicker
-    //-------------------------------------------------------------------------------
-    $('.datepicker').datepicker({
-        datesDisabled: ['07/21/2015', '07/22/2015', '07/23/2015']
-    }).on('changeDate', function () {
-        $(this).datepicker('hide');
-    });
-
-
-    // Show Appointment Modal
-    //-------------------------------------------------------------------------------
-    $('.show-appointment-modal').on('click', function () {
-        var service = $(this).data('service');
-        if (service) {
-            $("#appointment-service").val(service);
-        }
-        $('#appointmentModal').modal('show');
-        return false;
     });
 
 
