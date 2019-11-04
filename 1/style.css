@@ -945,7 +945,7 @@ iframe {
 }
 
 /*======================================== About Us =============================*/
-.inner-page-banner{
+.inner-page-attr{
 	width:100%;
 	float:left;
 	height:450px;
@@ -966,14 +966,14 @@ iframe {
 	-moz-transform:translateY(-50%);
 	transform:translateY(-50%);
 }
-.inner-page-banner h1{
+.inner-page-attr h1{
 	position:relative;
 	font-weight:700;
 	padding-bottom:12px;
 	text-transform: capitalize;
 	margin:0 0 20px;
 }
-.inner-page-banner h1::before {
+.inner-page-attr h1::before {
     width: 70px;
     height: 4px;
     position: absolute;
@@ -1924,7 +1924,7 @@ h2{
 .col-xs-6 {
     width: 50%;
 }
-.inner-page-banner{
+.inner-page-attr{
 	height:180px;
 }
 .breadcrumb-item a{
@@ -1942,7 +1942,7 @@ h2{
 .row .col-sm-6:nth-last-child(-n+2) .gallery-item{
 	margin:0;
 }
-.inner-page-banner{
+.inner-page-attr{
 	height:250px;
 }
 
@@ -2072,7 +2072,7 @@ ul.navbar-nav.ml-auto{
 .features-info{
 	padding:41px 10px 45px;
 }
-.inner-page-banner{
+.inner-page-attr{
 	height:320px;
 }
 .contact-info p{
